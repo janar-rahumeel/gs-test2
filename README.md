@@ -22,7 +22,7 @@ To execute jar from command line, run:
 ```
 >java -jar test-0.0.1-SNAPSHOT.jar
 ```
-######In Shell
+####In Shell
 Type *help* for help
 ```
 shell:>help
