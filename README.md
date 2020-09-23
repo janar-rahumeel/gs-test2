@@ -8,15 +8,21 @@ To launch integration tests included, run:
 mvnw integration-test
 ```
 ## Building
-Run the following command to build jar package
+To build jar package, run:
 ```
 mvnw package
 ```
+## Dockerizing
+To dockerize application, run:
+```
+mvnw compile jib:dockerBuild
+```
 ## Usage
-Run jar from command line 
+To execute jar from command line, run: 
 ```
 >java -jar test-0.0.1-SNAPSHOT.jar
 ```
+######In Shell
 Type *help* for help
 ```
 shell:>help
